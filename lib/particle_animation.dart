@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_particle_attraction_simulation/particle.dart';
 import 'package:flutter_particle_attraction_simulation/particle_painter.dart';
 
-const int rows = 100;
-const int cols = 100;
+const int rows = 80;
+const int cols = 80;
 const int numParticles = rows * cols;
-const double thickness = 60 * 60;
+const double thickness = 40 * 40;
 const double spacing = 8;
-const double margin = 16;
-const double drag = 0.85;
+const double margin = 100;
+const double drag = 0.95;
 const double ease = 0.25;
 
 class ParticleAnimation extends StatefulWidget {
